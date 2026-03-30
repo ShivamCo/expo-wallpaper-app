@@ -6,13 +6,13 @@ export default function Account() {
 
 
     return (
-        <SafeAreaView>
+        <View>
             <Text>Account</Text>
-            <Link href={"/accountInfo"}>
+            <Link href={"/accountinfo"}>
             <Text>Account Info</Text>
             </Link>
             
-        </SafeAreaView>
+        </View>
     )
 
 }

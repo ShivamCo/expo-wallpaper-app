@@ -5,11 +5,11 @@ import { SafeAreaView } from "react-native-safe-area-context";
 export default function Liked(){
 
     return(
-        <SafeAreaView>
+        <View>
             <Text>
                 Liked
             </Text>
-        </SafeAreaView>
+        </View>
     )
 
 }

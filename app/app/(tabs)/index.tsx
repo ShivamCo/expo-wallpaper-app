@@ -11,13 +11,13 @@ export default function ForYou() {
 
     return (
        
-            <SafeAreaView  style={{flex: 1}} >
+            <View  style={{flex: 1}} >
             <Tab.Navigator>
                 <Tab.Screen name="suggested" component={Suggested} />
                 <Tab.Screen name="liked" component={Liked} />
                 <Tab.Screen name="library" component={Library} />
             </Tab.Navigator>
-        </SafeAreaView>
+        </View>
     )
 
 }

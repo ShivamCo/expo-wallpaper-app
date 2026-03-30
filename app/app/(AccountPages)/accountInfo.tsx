@@ -5,11 +5,11 @@ import { SafeAreaView } from "react-native-safe-area-context";
 export default function AccountInfo(){
 
     return (
-        <SafeAreaView>
+        <View>
             <Text>
                 Account Info
             </Text>
-        </SafeAreaView>
+        </View>
     )
 
 

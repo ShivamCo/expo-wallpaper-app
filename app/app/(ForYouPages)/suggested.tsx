@@ -5,11 +5,11 @@ import { SafeAreaView } from "react-native-safe-area-context";
 export default function Suggested(){
 
     return(
-        <SafeAreaView>
+        <View>
             <Text>
                 Suggested
             </Text>
-        </SafeAreaView>
+        </View>
     )
 
 }

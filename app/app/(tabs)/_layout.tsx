@@ -6,7 +6,9 @@ import MaterialIcons from '@expo/vector-icons/MaterialIcons';
 
 
 export default function RootLayout() {
-  return <Tabs screenOptions={{ tabBarActiveTintColor: 'blue', headerShown: false }}>
+  return (
+  <View style={{ flex: 1 }} >
+  <Tabs screenOptions={{ tabBarActiveTintColor: 'blue', headerShown: false }}>
 
 
 
@@ -36,4 +38,7 @@ export default function RootLayout() {
 
 
   </Tabs>
+  </View>
+  
+  )
 }

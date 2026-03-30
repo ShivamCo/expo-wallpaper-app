@@ -5,11 +5,11 @@ import { SafeAreaView } from "react-native-safe-area-context";
 export default function Library(){
 
     return(
-        <SafeAreaView>
+        <View>
             <Text>
                 Library
             </Text>
-        </SafeAreaView>
+        </View>
     )
 
 }
